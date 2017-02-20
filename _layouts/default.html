@@ -193,11 +193,13 @@ jQuery(document).ready(function() {
 
 <ul id="menu-third-menu" class="menu">
 
-<nav>    
-    {% for category in site.categories %}
-        <li><a href="{{site.baseurl}}/categories.html#{{ category | first | remove:' ' }}"><strong>{{ category | first }}</strong></a> {% if forloop.last %}.{% else %}, {% endif %}</li>
-    {% endfor %}
-</nav>
+  <h3>Archives</h3>
+ <ul class="archives">
+ 				<li><a href="{{site.baseurl}}/tags/">All posts</a></li>
+                {% for tag in sortedTags %}
+                    <li><a href="{{site.baseurl}}/tags/#{{ tag | cgi_escape }}">{{ tag }} ({{ site.tags[tag].size }})</a></li>
+                {% endfor %}
+            </ul>
 
 </ul>
 
