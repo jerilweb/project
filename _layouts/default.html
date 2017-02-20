@@ -190,14 +190,12 @@ jQuery(document).ready(function() {
 <div class="widget widget_nav_menu" id="nav_menu-2"><p class="title">Hot topics</p><div class="menu-third-menu-container">
 
 
-<a href="{{site.baseurl}}/blog.html">Topics</a>
-<ul>
-    {% for category in site.categories %}
-    <li>
-        <a href="{{ category | first | remove:' ' }}"><strong>{{ category | first }}</strong></a> {% if forloop.last %}.{% else %}, {% endif %}
-        </li>
-    {% endfor %}
-</ul>
+
+ {% unless p.categories == empty %}
+ {% for categories in post.categories %}
+ <a href="{{site.baseurl}}/category.html#{{categories}}">{{ categories }}</a>
+ {% endfor %}
+ {% endunless %}
 
 
 
