@@ -2,8 +2,21 @@
 layout: default
 ---
 
+{% if page.url contains 'help' %} 
 <ul class="posts-archive">
-{% if site.baseurl contains 'help' %} <h1> apple </h1> {% endif %}
-
+{% for post in site.categories.help %}
+     <li>
+        <div class="post-thumb"><a href="#" title="Ad pulvinar blandit libero suscipit sit facilisi"><img src="image/Lytro-Lifestyle-Red-Hot_Woman-on-Bench-140x90.jpg" alt="Ad pulvinar blandit libero suscipit sit facilisi" class="Thumbnail thumbnail loop-main " width="140" height="90" /></a></div>      <div class="post-excerpt">
+            <p class="postmetadata">
+                <span><time datetime="2015-08-13" pubdate>{{post.date | date:"%B %-d, %Y"}}</time>              </span>
+            </p>
+            <h2><a href="{{site.baseurl}}{{post.url}}" title="Permanent link to{site.baseurl}}{{post.url}}">Ad pulvinar blandit libero suscipit sit facilisi</a></h2>
+            <p>{{post.excerpt}}</p>
+            <span class="more"><a href="{{site.baseurl}}{{post.url}}}" rel="nofollow">continue reading &rarr;</a></span>
+        </div><!-- end .post-excerpt -->
+        <div class="cleaner">&nbsp;</div>
+    </li>
+     {% endfor %}
     
 </ul>
+{% endif %}
