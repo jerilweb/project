@@ -2,14 +2,21 @@
 layout: default
 ---
 
+<ul class="tag-cloud">
 {% capture site_tags %}{% for tag in site.tags %}{{tag | first}}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
        {% assign sortedTags=site_tags | split:',' | sort %}
+
+       {% for tag in sortedTags %}
+          <li><a href="#{{tag | cgi_escape}}">{{tag}}</a></li>
+       {% endfor %}
+    </ul>
 
 {% for tag in sortedTags %}
   <h3> {{tag}}</h3>
   <ul>
    {% for post in site.tags[tag] %}
-    <li>{{post.title}} </li>
+    <li><a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a> </li>
+ </ul>   
     {% endfor %}
 
 
