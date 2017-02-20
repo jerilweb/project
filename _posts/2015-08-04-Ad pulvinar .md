@@ -3,7 +3,7 @@ layout: post
 date: 08-04-2015
 title: ad pulivar
 image:00001742250Large-300x199.png
-tags: [Health, Food, Blog, Paper]
+tags: [Health, Food, Paper]
 excerpt_separator: <!--more-->
 ---
 This is some dummy copy. You’re not really supposed to read this dummy copy, it is just a place holder for people who need some type to visualize what the actual copy might look like if it were real <!--more-->content.
