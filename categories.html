@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-{% if page.url contains '#help' %}
+
 {% for category in site.categories.help %}
     <div class="catbloc" id="{{ category | first | remove:' ' }}">
         <h2>{{ category | first }}</h2>
@@ -22,4 +22,3 @@ layout: default
         </ul>
     </div>
 {% endfor %}
-{% endif %}
