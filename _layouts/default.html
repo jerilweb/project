@@ -195,7 +195,7 @@ jQuery(document).ready(function() {
 
 <nav>    
     {% for category in site.categories %}
-        <li><a href="{{site.baseurl}}/categories.html{{ category | first | remove:' ' }}"><strong>{{ category | first }}</strong></a> {% if forloop.last %}.{% else %}, {% endif %}</li>
+        <li><a href="{{site.baseurl}}/categories.html/{{ category | first | remove:' ' }}"><strong>{{ category | first }}</strong></a> {% if forloop.last %}.{% else %}, {% endif %}</li>
     {% endfor %}
 </nav>
 
