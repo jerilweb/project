@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 04-02-2017
-category: help
+categories: help
 image: 00001742250Large-380x230.png
 title: ad pulivar
 excerpt_separator: <!--more-->
