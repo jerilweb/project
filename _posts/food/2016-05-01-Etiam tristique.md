@@ -1,10 +1,11 @@
 ---
 layout: post
-date: 07-02-2015
-title: ad pulivar
-categories: one
+date: 06-06-2014
+category: food
+image:00001742250Large-300x199.png
 excerpt_separator: <!--more-->
 ---
+
 This is some dummy copy. You’re not really supposed to read this dummy copy, it is just a place holder for people who need some type to visualize what the actual copy might look like if it were real <!--more-->content.
 If you want to read, I might suggest a good book, perhaps Hemingway or Melville. That’s why they call it, the dummy copy. This, of course, is not the real copy for this entry. Rest assured, the words will expand the concept. With clarity. Conviction. And a little wit.
 

@@ -1,10 +1,12 @@
 ---
 layout: post
-date: 06-06-2014
-title: ad pulivar
-categories: one
+date: 04-02-2017
+categories: help
+image: 00001742250Large-380x230.png
 excerpt_separator: <!--more-->
 ---
+
+# companion
 Welcome to the companion site for the lynda.com course Jekyll for Web Designers. This course is designed to present Jekyll to web designers<!--more--> in a clear, concise way. In this post we’ll take a quick look at how Jekyll works, and whether it’s right for you. 
 Fusce nec odio elit, in interdum velit
 This is some dummy copy. You’re not really supposed to read this dummy copy, it is just a place holder for people who need some type to visualize what the actual copy might look like if it were real content.
