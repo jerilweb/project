@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{% if post_url contains '#help' %} 
+{% if post.tag contains 'help' %} 
 <ul class="posts-archive">
 {% for post in site.categories.help %}
      <li>
