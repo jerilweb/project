@@ -192,7 +192,8 @@ jQuery(document).ready(function() {
 <div class="menu-third-menu-container">
 
 <ul id="menu-third-menu" class="menu">
-
+{% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
+{% assign sortedTags = site_tags | split:',' | sort %}
   <h3>Archives</h3>
  <ul class="archives">
  				<li><a href="{{site.baseurl}}/tags/">All posts</a></li>
