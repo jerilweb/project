@@ -7,7 +7,7 @@ layout: default
        {% assign sortedTags=site_tags | split:',' | sort %}
 
        {% for tag in sortedTags %}
-          <li><a href="#{{tag | cgi_escape}}">{{tag}}</a></li>
+          <li><a href="#{{tag | cgi_escape}}">{{tag}} [{{ site.tags[tag].size}}]</a></li>
        {% endfor %}
     </ul>
 
