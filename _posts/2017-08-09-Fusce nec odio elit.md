@@ -1,9 +1,9 @@
 ---
 layout: post
 date: 04-08-2017
-categories: help
 image: 00001742250Large-380x230.png
 title: ad pulivar
+tags: [Health, Blog]
 excerpt_separator: <!--more-->
 ---
 

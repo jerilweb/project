@@ -2,8 +2,8 @@
 layout: post
 date: 02-05-2016
 title: ad pulivar
-category: food
 image:00001742250Large-300x199.png
+tags: [Health, Food]
 excerpt_separator: <!--more-->
 ---
 

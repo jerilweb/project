@@ -1,8 +1,8 @@
 ---
 layout: post
 date: 06-06-2014
-category: food
 image:00001742250Large-300x199.png
+tags: [Health, Blog]
 excerpt_separator: <!--more-->
 ---
 
