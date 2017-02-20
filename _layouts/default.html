@@ -188,15 +188,17 @@ jQuery(document).ready(function() {
 		
 
 <div class="widget widget_nav_menu" id="nav_menu-2"><p class="title">Hot topics</p><div class="menu-third-menu-container">
-<ul id="menu-third-menu" class="menu">
-{% for category in site.categories %}
-   <li><a href="{{ category | first }}">{{ category | first }}</a></li>  
-   
-{% endfor %}
-</ul>
 
 
-</ul></div><div class="cleaner">&nbsp;</div></div><div class="widget zoom-social-icons-widget" id="zoom-social-icons-widget-2"><p class="title">Social Icons</p>
+<a href="#allposts">All posts</a>
+    {% for category in site.categories %}
+        <a href="#{{ category | first | remove:' ' }}"><strong>{{ category | first }}</strong></a> {% if forloop.last %}.{% else %}, {% endif %}
+    {% endfor %}
+
+
+
+
+</div><div class="cleaner">&nbsp;</div></div><div class="widget zoom-social-icons-widget" id="zoom-social-icons-widget-2"><p class="title">Social Icons</p>
         
         <ul class="zoom-social-icons-list zoom-social-icons-list--with-canvas zoom-social-icons-list--rounded zoom-social-icons-list--no-labels">
 
