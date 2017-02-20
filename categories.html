@@ -1,8 +1,8 @@
 ---
 layout: default
 ---
-
-{% for category in site.categories %}
+{% page.url %}
+{% for category in site.categories. %}
     <div class="catbloc" id="{{ category | first | remove:' ' }}">
         <h2>{{ category | first }}</h2>
         
