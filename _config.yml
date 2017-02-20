@@ -1,0 +1,10 @@
+# site setting
+title: qWPZOOM Theme Demo
+description:  "A basic guide to change the content in static website"
+baseurl: /start
+tagline: "basic guide on jekyl"
+
+#build setting
+markdown: kramdown
+paginate: 5
+paginate_path: '/blog/page:num/'
