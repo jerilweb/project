@@ -190,12 +190,13 @@ jQuery(document).ready(function() {
 <div class="widget widget_nav_menu" id="nav_menu-2"><p class="title">Hot topics</p><div class="menu-third-menu-container">
 
 
-
- {% unless p.categories == empty %}
- {% for categories in post.categories %}
- <a href="{{site.baseurl}}/category.html#{{categories}}">{{ categories }}</a>
- {% endfor %}
- {% endunless %}
+<ul>
+    {% for category in site.categories %}
+    <li>
+        <a href="{{site.baseurl}}/category.html#{{categories}}"><strong>{{ category}} </strong></a>
+        </li>
+    {% endfor %}
+</ul> 
 
 
 
