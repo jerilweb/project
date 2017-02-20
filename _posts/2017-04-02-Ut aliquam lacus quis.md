@@ -3,7 +3,7 @@ layout: post
 date: 06-06-2014
 title: ad pulivar
 categories: one
-image: 00001742250Large-380x230
+image: 00001742250Large-380x230.png
 excerpt_separator: <!--more-->
 ---
 Welcome to the companion site for the lynda.com course Jekyll for Web Designers. This course is designed to present Jekyll to web designers<!--more--> in a clear, concise way. In this post we’ll take a quick look at how Jekyll works, and whether it’s right for you. 
