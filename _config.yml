@@ -1,7 +1,7 @@
 # site setting
 title: qWPZOOM Theme Demo
 description:  "A basic guide to change the content in static website"
-baseurl: /start
+baseurl: /project
 tagline: "basic guide on jekyl"
 
 #build setting
